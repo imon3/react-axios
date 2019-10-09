@@ -1,0 +1,16 @@
+.posts {
+  text-align: center;
+}
+
+div {
+  .post-title {
+    margin: 10px 0;
+    a {
+      font-size: 1.2rem;
+
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}
